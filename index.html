@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>E-TECH SOLUTIONS | Electronics & IoT E-Learning</title>
       <link rel="icon" type="image/png" href="https://lh3.googleusercontent.com/pw/AP1GczNty6_2Cq0hySwk_JWjLVcINZz0lyqfq9BNLXjr9-qhG_94UV7oQLhTNB7VtAP8qM1G06Gj36pEqbZyvBWZlV4508OriC45KwQoabQ8qSRc5HHMGPVu=w2400?source=screenshot.guru"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -5238,6 +5240,25 @@ input[type="radio"]:checked + .payment-option-content {
 .project-content .btn:hover::before {
     left: 100%;
 }
+        #assistant-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 350px; /* fixed width for mobile consistency */
+    max-width: 90%; /* responsive on smaller screens */
+    z-index: 9999; /* keep above all elements */
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 600px) {
+    #assistant-container {
+        bottom: 10px;
+        right: 10px;
+        width: 95%;
+    }
+}
+
    </style>
 </head>
 <body>
@@ -16180,6 +16201,7 @@ window.addEventListener('click', (e) => {
     </script>
 </body>
 </html>
+
 
 
 
